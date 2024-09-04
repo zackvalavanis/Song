@@ -7,3 +7,12 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+
+
+sings3 = Sing.new( 
+  title: "Fifties Rock",
+  album: 'Here\'s little Richard', 
+  artist: "Litte Richard",
+  year: 1957
+)
+sings3.save
